@@ -1,6 +1,16 @@
+ca-certificates
+fnm
 fzf
+gettext
 git
+mpdecimal
+openssl@3
+pcre2
+python@3.12
+readline
+sqlite
 stow
+xz
 zoxide
 font-jetbrains-mono-nerd-font
 iterm2
