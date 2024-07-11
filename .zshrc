@@ -1,3 +1,4 @@
+# Paths
 path+=('/usr/local/bin')
 path+=('/System/Cryptexes/App/usr/bin')
 path+=('/usr/bin')
