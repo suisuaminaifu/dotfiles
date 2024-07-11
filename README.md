@@ -1,3 +1,3 @@
-# Dotfile
+# Dotfiles
 
-Guide to be created
+guide to be created
