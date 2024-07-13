@@ -47,9 +47,10 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 
 # Keybindings
-bindkey -e
+bindkey -v
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
+bindkey '^y' autosuggest-accept
 
 
 # History
@@ -73,5 +74,3 @@ source <(fzf --zsh)
 
 # Zoxide better cd
 eval "$(zoxide init --cmd cd zsh)"
-
-
