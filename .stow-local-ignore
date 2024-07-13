@@ -24,5 +24,6 @@ _darcs
 
 ^/brew_list
 ^/iterm2profile.json
+^/vscodesettings.json
 
 ^/.DS_Store
