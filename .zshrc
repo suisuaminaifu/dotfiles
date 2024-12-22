@@ -6,8 +6,6 @@ path+=('/bin')
 path+=('/usr/sbin')
 path+=('/sbin')
 
-
-
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -74,3 +72,8 @@ source <(fzf --zsh)
 
 # Zoxide better cd
 eval "$(zoxide init --cmd cd zsh)"
+
+# libq / psql
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+. "$HOME/.local/bin/env"
