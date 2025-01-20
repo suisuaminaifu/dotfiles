@@ -77,3 +77,7 @@ eval "$(zoxide init --cmd cd zsh)"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 . "$HOME/.local/bin/env"
+
+# rbenv
+eval "$(rbenv init - --no-rehash zsh)"
+
